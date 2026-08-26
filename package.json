@@ -1,0 +1,24 @@
+{
+  "name": "autonomous-nft-character-agents",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous NFT Character Agents for a Web3 RPG — EVM ERC-721 Dynamic Traits + ERC-20 Staking + LangGraph Agent Layer",
+  "scripts": {
+    "dev": "npm run dev --prefix dashboard",
+    "build": "npm run build --prefix dashboard",
+    "preview": "npm run preview --prefix dashboard"
+  },
+  "keywords": [
+    "autonomous-agents",
+    "web3",
+    "nft",
+    "erc721",
+    "erc20",
+    "langgraph",
+    "polygon",
+    "solidity",
+    "hardhat"
+  ],
+  "author": "Mughees Tayyab",
+  "license": "MIT"
+}

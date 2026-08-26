@@ -1,0 +1,40 @@
+{
+  "name": "autonomous-nft-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Autonomous NFT Character Agents on Polygon",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy:local": "hardhat ignition deploy ignition/modules/FullDeploy.ts --network hardhat",
+    "deploy:amoy": "hardhat ignition deploy ignition/modules/FullDeploy.ts --network polygonAmoy",
+    "mint:local": "hardhat run scripts/mintCharacters.ts --network localhost",
+    "mint:amoy": "hardhat run scripts/mintCharacters.ts --network polygonAmoy"
+  },
+  "keywords": [
+    "solidity",
+    "nft",
+    "erc721",
+    "erc20",
+    "polygon",
+    "ai-agents",
+    "session-keys",
+    "account-abstraction",
+    "langgraph"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

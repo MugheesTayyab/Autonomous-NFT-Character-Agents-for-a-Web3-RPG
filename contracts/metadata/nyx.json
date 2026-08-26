@@ -1,0 +1,21 @@
+{
+  "name": "Nyx the Shadow",
+  "description": "A reclusive hoarder operating in secret vault sectors. Nyx refuses risky trades, distrusts outsiders, and amasses resources quietly.",
+  "image": "ipfs://QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/nyx.png",
+  "archetype": "HOARDER",
+  "traits": {
+    "riskTolerance": 10,
+    "trustBaseline": 10,
+    "aggression": 15,
+    "patience": 95
+  },
+  "attributes": [
+    { "trait_type": "Archetype", "value": "HOARDER" },
+    { "trait_type": "Risk Tolerance", "value": 10, "max_value": 100 },
+    { "trait_type": "Trust Baseline", "value": 10, "max_value": 100 },
+    { "trait_type": "Aggression", "value": 15, "max_value": 100 },
+    { "trait_type": "Patience", "value": 95, "max_value": 100 },
+    { "trait_type": "Primary Weapon", "value": "Shadow EMP Disruptor" },
+    { "trait_type": "Zone", "value": "Barr3n X-11" }
+  ]
+}

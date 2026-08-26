@@ -1,0 +1,21 @@
+{
+  "name": "Voss the Peacemaker",
+  "description": "An esteemed diplomat and negotiator from KT 88. Voss seeks win-win exchanges, values collaborative stability, and builds long-term alliance networks.",
+  "image": "ipfs://QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/voss.png",
+  "archetype": "DIPLOMAT",
+  "traits": {
+    "riskTolerance": 20,
+    "trustBaseline": 95,
+    "aggression": 5,
+    "patience": 90
+  },
+  "attributes": [
+    { "trait_type": "Archetype", "value": "DIPLOMAT" },
+    { "trait_type": "Risk Tolerance", "value": 20, "max_value": 100 },
+    { "trait_type": "Trust Baseline", "value": 95, "max_value": 100 },
+    { "trait_type": "Aggression", "value": 5, "max_value": 100 },
+    { "trait_type": "Patience", "value": 90, "max_value": 100 },
+    { "trait_type": "Primary Weapon", "value": "Ceremonial Force Staff" },
+    { "trait_type": "Zone", "value": "KT 88" }
+  ]
+}

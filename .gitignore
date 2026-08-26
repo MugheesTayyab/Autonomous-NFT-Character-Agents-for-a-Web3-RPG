@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs & caches
+dist/
+dashboard/dist/
+artifacts/
+contracts/artifacts/
+cache/
+contracts/cache/
+typechain-types/
+contracts/typechain-types/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+backend/data/*.db*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+agents/.env
+contracts/.env
+
+# Coverage reports
+coverage/
+*/coverage/
+coverage.json
+contracts/coverage.json
+
+# Hardhat local deployments
+ignition/deployments/chain-31337/
+contracts/ignition/deployments/chain-31337/
+
+# Logs & temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+.system_generated/

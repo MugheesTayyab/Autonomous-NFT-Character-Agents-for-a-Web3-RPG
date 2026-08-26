@@ -1,0 +1,21 @@
+{
+  "name": "Lyra the Tactical",
+  "description": "A calculating strategist from Cry O-Hail. Lyra evaluates all outcomes patiently, places heavy weight on verified reputation, and minimizes downside risk.",
+  "image": "ipfs://QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/lyra.png",
+  "archetype": "STRATEGIST",
+  "traits": {
+    "riskTolerance": 30,
+    "trustBaseline": 80,
+    "aggression": 20,
+    "patience": 85
+  },
+  "attributes": [
+    { "trait_type": "Archetype", "value": "STRATEGIST" },
+    { "trait_type": "Risk Tolerance", "value": 30, "max_value": 100 },
+    { "trait_type": "Trust Baseline", "value": 80, "max_value": 100 },
+    { "trait_type": "Aggression", "value": 20, "max_value": 100 },
+    { "trait_type": "Patience", "value": 85, "max_value": 100 },
+    { "trait_type": "Primary Weapon", "value": "Precision Cryo-Rifle" },
+    { "trait_type": "Zone", "value": "Cry O-Hail" }
+  ]
+}

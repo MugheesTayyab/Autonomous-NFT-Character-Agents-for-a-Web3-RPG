@@ -1,0 +1,21 @@
+{
+  "name": "Kael the Unbroken",
+  "description": "A fierce vanguard berserker who charges headfirst into danger. Highly aggressive and opportunistic, Kael thrives under high risk and quick rewards.",
+  "image": "ipfs://QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/kael.png",
+  "archetype": "BERSERKER",
+  "traits": {
+    "riskTolerance": 95,
+    "trustBaseline": 15,
+    "aggression": 90,
+    "patience": 10
+  },
+  "attributes": [
+    { "trait_type": "Archetype", "value": "BERSERKER" },
+    { "trait_type": "Risk Tolerance", "value": 95, "max_value": 100 },
+    { "trait_type": "Trust Baseline", "value": 15, "max_value": 100 },
+    { "trait_type": "Aggression", "value": 90, "max_value": 100 },
+    { "trait_type": "Patience", "value": 10, "max_value": 100 },
+    { "trait_type": "Primary Weapon", "value": "Dual Thermal Cleavers" },
+    { "trait_type": "Zone", "value": "Barr3n X-11" }
+  ]
+}

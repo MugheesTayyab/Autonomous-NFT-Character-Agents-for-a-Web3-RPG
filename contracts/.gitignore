@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Hardhat artifacts & cache
+artifacts/
+cache/
+typechain-types/
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Hardhat Ignition deployments (optional to ignore local ones)
+ignition/deployments/chain-31337/

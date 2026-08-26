@@ -1,0 +1,21 @@
+{
+  "name": "Rexx the Scavenger",
+  "description": "An opportunistic rogue wandering the Traders Belt. Rexx constantly searches for mispriced trades and high-yield staking pools.",
+  "image": "ipfs://QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/rexx.png",
+  "archetype": "SCAVENGER",
+  "traits": {
+    "riskTolerance": 70,
+    "trustBaseline": 25,
+    "aggression": 60,
+    "patience": 40
+  },
+  "attributes": [
+    { "trait_type": "Archetype", "value": "SCAVENGER" },
+    { "trait_type": "Risk Tolerance", "value": 70, "max_value": 100 },
+    { "trait_type": "Trust Baseline", "value": 25, "max_value": 100 },
+    { "trait_type": "Aggression", "value": 60, "max_value": 100 },
+    { "trait_type": "Patience", "value": 40, "max_value": 100 },
+    { "trait_type": "Primary Weapon", "value": "Plasma Arc Launcher" },
+    { "trait_type": "Zone", "value": "Traders Belt" }
+  ]
+}

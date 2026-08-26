@@ -2,13 +2,15 @@
 
 > **Decentralized Multi-Agent Autonomous Gaming System with Scoped Session Keys, On-Chain Personalities, and Real-Time Cognitive Dashboard on Polygon Amoy.**
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/MugheesTayyab/Autonomous-NFT-Character-Agents-for-a-Web3-RPG)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-363636?logo=solidity)](https://soliditylang.org/)
 [![Hardhat](https://img.shields.io/badge/Hardhat-2.22.6-yellow?logo=ethereum)](https://hardhat.org/)
 [![Polygon Amoy](https://img.shields.io/badge/Polygon-Amoy_Testnet-8247e5?logo=polygon)](https://amoy.polygonscan.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-blue)](https://langchain-ai.github.io/langgraphjs/)
 [![Fastify](https://img.shields.io/badge/Fastify-4.28-black?logo=fastify)](https://fastify.dev/)
 [![React](https://img.shields.io/badge/React-18-61dafb?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)](https://vitejs.dev/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://vercel.com/)
 
 ---
 
@@ -73,7 +75,7 @@ flowchart TD
 | **Backend Service** | Fastify, TypeScript, Ethers.js v6 | High-throughput async I/O, low latency, robust WebSocket streaming, and typed smart contract interfaces. |
 | **State Cache** | SQLite (WAL Mode enabled) | Single-process ultra-fast local state cache with multi-threaded read concurrency and zero operational overhead. |
 | **Cognitive Engine** | LangGraph.js, Zod, Persona Engine | Cyclic state machine for deterministic trait weighting, dynamic memory updates, and structured decision outputs. |
-| **Presentation Layer** | React 18, Vite, Tailwind CSS, Lucide | Modern cyber-dark glassmorphism dashboard with real-time WebSocket state streaming and sub-second reactivity. |
+| **Presentation Layer** | React 18, Vite, Tailwind CSS, Lucide | Modern cyber-editorial dashboard with real-time state streaming, localized auto-scroll, and autonomous simulation engine. |
 
 ---
 
@@ -87,6 +89,8 @@ flowchart TD
    - All state transitions follow Checks-Effects-Interactions. The backend Policy Engine validates all agent actions against session rules before submitting on-chain transactions, guaranteeing zero wasted gas.
 4. **Isolated Multi-Agent Cognitive Loops**:
    - Each character operates in its own isolated LangGraph state loop, preserving decentralized autonomy and preventing emergent multi-agent coordination deadlocks.
+5. **Standalone Autonomous Simulation Fallback**:
+   - The mission control dashboard contains an embedded autonomous simulation state machine that powers client-side interactive gameplay, staking, and simulator triggers when deployed on platforms like Vercel.
 
 ---
 
@@ -96,9 +100,9 @@ flowchart TD
 |---|---|---|---|---|---|---|---|
 | **#0** | **Kael the Unbroken** | `BERSERKER` | 95 | 90 | 15 | 10 | High-yield staking & aggressive trade proposals |
 | **#1** | **Lyra the Tactical** | `STRATEGIST` | 30 | 20 | 80 | 85 | Risk-averse calculations & cooperative trade agreements |
-| **#2** | **Borin the Scavenger**| `SCAVENGER` | 75 | 65 | 40 | 30 | Opportunistic resource capture & yield hunting |
-| **#3** | **Voss the Peacemaker**| `DIPLOMAT` | 40 | 10 | 95 | 90 | Maximum bilateral trust & trade facilitation |
-| **#4** | **Nyx the Shadow** | `HOARDER` | 10 | 40 | 10 | 95 | Capital preservation & defensive asset holding |
+| **#2** | **Rexx the Scavenger** | `SCAVENGER` | 70 | 60 | 25 | 40 | Opportunistic resource capture & yield hunting |
+| **#3** | **Voss the Peacemaker**| `DIPLOMAT` | 20 | 5 | 95 | 90 | Maximum bilateral trust & trade facilitation |
+| **#4** | **Nyx the Shadow** | `HOARDER` | 10 | 15 | 10 | 95 | Capital preservation & defensive asset holding |
 
 ---
 
@@ -112,8 +116,8 @@ flowchart TD
 ### 1. Clone & Install Dependencies
 ```bash
 # Clone repository
-git clone https://github.com/your-username/autonomous-nft.git
-cd autonomous-nft
+git clone https://github.com/MugheesTayyab/Autonomous-NFT-Character-Agents-for-a-Web3-RPG.git
+cd Autonomous-NFT-Character-Agents-for-a-Web3-RPG
 
 # Install smart contracts dependencies
 cd contracts && npm install && cd ..
@@ -173,7 +177,21 @@ cd dashboard
 npm run dev
 ```
 
-Open your browser at `http://localhost:3000` to access the Mission Control Dashboard!
+Open your browser at `http://localhost:5173` to access the Mission Control Dashboard!
+
+---
+
+## 🌐 Vercel Deployment
+
+Deploying the interactive Mission Control dashboard to Vercel:
+
+1. Import this repository in Vercel: [`https://github.com/MugheesTayyab/Autonomous-NFT-Character-Agents-for-a-Web3-RPG`](https://github.com/MugheesTayyab/Autonomous-NFT-Character-Agents-for-a-Web3-RPG)
+2. In Vercel Project Settings:
+   - **Root Directory**: `dashboard` (or leave default root)
+   - **Framework Preset**: `Vite`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+3. Click **Deploy**. The application will compile cleanly and launch with complete autonomous simulated gameplay!
 
 ---
 

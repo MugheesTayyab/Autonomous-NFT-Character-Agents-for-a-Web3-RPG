@@ -5,9 +5,12 @@
   "description": "Autonomous NFT Character Agents for a Web3 RPG — EVM ERC-721 Dynamic Traits + ERC-20 Staking + LangGraph Agent Layer",
   "scripts": {
     "dev": "npm run dev --prefix dashboard",
-    "build": "npm run build --prefix dashboard",
+    "build": "cd dashboard && npm install --include=dev && npm run build",
     "preview": "npm run preview --prefix dashboard"
   },
+  "workspaces": [
+    "dashboard"
+  ],
   "keywords": [
     "autonomous-agents",
     "web3",

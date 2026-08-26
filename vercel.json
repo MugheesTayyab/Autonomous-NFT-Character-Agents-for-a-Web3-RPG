@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm run build --prefix dashboard",
+  "installCommand": "cd dashboard && npm install --include=dev",
+  "buildCommand": "cd dashboard && npm run build",
   "outputDirectory": "dashboard/dist",
   "framework": "vite"
 }

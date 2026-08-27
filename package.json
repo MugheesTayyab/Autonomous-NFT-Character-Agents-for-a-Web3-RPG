@@ -1,6 +1,6 @@
 {
   "name": "autonomous-nft-character-agents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Autonomous NFT Character Agents for a Web3 RPG — EVM ERC-721 Dynamic Traits + ERC-20 Staking + LangGraph Agent Layer",
   "scripts": {

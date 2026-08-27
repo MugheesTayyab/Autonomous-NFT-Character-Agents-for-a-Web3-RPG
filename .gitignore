@@ -2,6 +2,10 @@
 node_modules/
 */node_modules/
 
+# Lock files (prevents OS binary architecture mismatch on Linux CI/Vercel)
+package-lock.json
+*/package-lock.json
+
 # Build outputs & caches
 dist/
 dashboard/dist/
